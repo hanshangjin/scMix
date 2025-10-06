@@ -34,8 +34,10 @@ pip install -r requirements.txt
 
 ### Run
 
-You can run the training script with the following command:
+To run the script for predicting gene expression at unknown time points, use the following command:
 
 ```bash
 python main.py --mode remove_recovery --data_dir data_path --data_name zebrafish --batch_size 96 --max_epochs 100
 ```
+
+`--mode` specifies the task type. Different tasks correspond to different splits of time points.
