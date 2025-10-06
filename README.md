@@ -25,24 +25,6 @@ Detailed dataset information and preprocessing steps can be found in the [`data_
 
 ### Requirements
 
-```bash
-pip install -r requirements.txt
-
-# requirements.txt
-deepspeed==0.14.4
-geomloss==0.2.6
-matplotlib==3.10.6
-natsort==8.4.0
-numpy==2.3.3
-pandas==2.3.2
-pytorch_lightning==2.3.0
-scanpy==1.11.4
-scikit_learn==1.7.2
-scipy==1.16.2
-seaborn==0.13.2
-torch==2.6.0+cu118
-umap_learn==0.5.7
-You can install all dependencies using:
-
-```bash
+To set up the environment, make sure you have the following: - Python 3.8 or higher - [PyTorch](https://pytorch.org/) (with CUDA support if available) - Common scientific computing libraries: numpy, scipy, pandas, matplotlib, scikit-learn - For single-cell data processing: scanpy, anndata, umap-learn You can install all dependencies using:
+bash
 pip install -r requirements.txt
