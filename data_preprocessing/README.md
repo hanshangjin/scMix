@@ -57,4 +57,5 @@ The datasets used in this project are summarized below.
 </table>
 
 For **Zebrafish Embryo**, **Drosophila**, and **Schiebinger2019**, we followed the preprocessing pipeline provided in [scNODE](https://github.com/rsinghlab/scNODE).
+
 For **Veres**, the preprocessing procedure was based on [PI-SDE](https://github.com/QiJiang-QJ/PI-SDE), with several adjustments to the original procedure.
