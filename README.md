@@ -1,8 +1,9 @@
 # scMix: Learning Temporal Dynamics of Gene Expression under Irregular Time Intervals
 
 ![Model Overview](model.png)
-
+<p style="font-size:12px;">
 We introduce scMix, a time-aware modeling framework that integrates information from multiple earlier timepoints, enabling the use of richer temporal information. Moreover, scMix proposes a delta-time mechanism that allows the model to bypass unmeasured timepoints, reducing error accumulation and improving robustness. scMix demonstrates state-of-the-art performance in predicting gene expression at unmeasured timepoints, surpassing existing methods, and also achieves outstanding results on downstream tasks.
+</p>
 ---
 
 ## Datasets
