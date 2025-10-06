@@ -32,6 +32,24 @@ The required dependencies are listed below. You can install them all with:
 pip install -r requirements.txt
 ```
 
+The required dependencies and their specific versions are listed below:
+
+```text
+deepspeed==0.14.4
+geomloss==0.2.6
+matplotlib==3.10.6
+natsort==8.4.0
+numpy==2.3.3
+pandas==2.3.2
+pytorch_lightning==2.3.0
+scanpy==1.11.4
+scikit_learn==1.7.2
+scipy==1.16.2
+seaborn==0.13.2
+torch==2.6.0+cu118
+umap_learn==0.5.7
+```
+
 ### Run
 
 To run the script for predicting gene expression at unknown time points, use the following command:
