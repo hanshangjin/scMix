@@ -25,6 +25,14 @@ Detailed dataset information and preprocessing steps can be found in the [`data_
 
 ### Requirements
 
-To set up the environment, make sure you have the following: - Python 3.8 or higher - [PyTorch](https://pytorch.org/) (with CUDA support if available) - Common scientific computing libraries: numpy, scipy, pandas, matplotlib, scikit-learn - For single-cell data processing: scanpy, anndata, umap-learn You can install all dependencies using:
-bash
+To set up the environment, make sure you have the following:
+
+- Python 3.8 or higher  
+- [PyTorch](https://pytorch.org/) (with CUDA support if available)  
+- Common scientific computing libraries: `numpy`, `scipy`, `pandas`, `matplotlib`, `scikit-learn`  
+- For single-cell data processing: `scanpy`, `anndata`, `umap-learn`
+
+You can install all dependencies using:
+
+```bash
 pip install -r requirements.txt
