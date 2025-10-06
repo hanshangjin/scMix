@@ -29,7 +29,7 @@ The required dependencies are listed below. You can install them all with:
 
 ```bash
 pip install -r requirements.txt
-
+```bash
 
 The `requirements.txt` contains:
 
