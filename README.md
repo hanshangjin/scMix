@@ -1,9 +1,8 @@
-# Project Title
+# scMix: Learning Temporal Dynamics of Gene Expression under Irregular Time Intervals
 
-![Overview Figure](model.png)
+![Model Overview](model.png)
 
-A concise description of your project goes here. One or two sentences are enough to explain what the project is about and what problem it addresses.
-
+We introduce scMix, a time-aware modeling framework that integrates information from multiple earlier timepoints, enabling the use of richer temporal information. Moreover, scMix proposes a delta-time mechanism that allows the model to bypass unmeasured timepoints, reducing error accumulation and improving robustness. scMix demonstrates state-of-the-art performance in predicting gene expression at unmeasured timepoints, surpassing existing methods, and also achieves outstanding results on downstream tasks.
 ---
 
 ## Datasets
@@ -17,7 +16,7 @@ We use four benchmark single-cell time-series datasets from four different speci
 | Schiebinger2019     | *Mus musculus*             | 236,285 | 19          | [Broad Institute WOT Tutorial](https://broadinstitute.github.io/wot/tutorial/) |
 | Veres               | *Homo sapiens*             | 51,274  | 8           | [GEO: GSE114412](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114412) |
 
-Detailed dataset information and preprocessing steps can be found in the [`data_preprocessing`](./data_preprocessing) folder.
+Detailed dataset information and preprocessing steps can be found in the [`data_preprocessing`](./data_preprocessing).
 
 ---
 
